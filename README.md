@@ -1,4 +1,4 @@
-# Script for Corpus Linguistics
+# Script for Concordance Analysis of 'Help' in the Old Baily Corpus
 
 The script (`main.py`) contains a handful of very short and simple functions, followed by an if-name-main block containing the main logic. The approach relies heavily on spaCy's dependency parsing. For example, you can easily move through the dependency tree using the `.children` attribute of a token (look at https://spacy.io/usage/linguistic-features for details). This makes it really easy to find the subject/object/etc.
 
